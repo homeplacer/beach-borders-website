@@ -23,7 +23,7 @@ A fast, modern, mobile-first website for Scott's curbing business. No frameworks
 ## Before it goes live — 2 quick things
 
 ### 1. Photos — DONE ✅
-Real job photos were pulled from Scott's existing `/our-work` gallery: the hero shot, the social-share image, and 9 gallery photos (decorative curbing, flower beds, tree rings, river rock, mulch beds, palms, island beds, concrete walkways, stamped concrete) all live in `images/`. His real logo is saved as `images/beach-borders-logo.jpg` too. To swap any of them, just replace the file (`hero.jpg`, `job1.jpg`…`job9.jpg`) keeping the same name.
+Real job photos were pulled from Scott's existing `/our-work` gallery: the hero shot, the social-share image, and 9 gallery photos (decorative curbing, flower beds, tree rings, river rock, mulch beds, palms, island beds, concrete walkways, stamped concrete) all live in `images/`. His real logo (recovered as a clean transparent PNG) is in the header and footer as `images/beach-borders-logo.png`. To swap any photo, just replace the file (`hero.jpg`, `job1.jpg`…`job9.jpg`) keeping the same name.
 
 ### 2. Connect the contact form (free, 5 minutes)
 1. Go to **formspree.io**, sign up free, create a form.
