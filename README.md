@@ -20,17 +20,10 @@ A fast, modern, mobile-first website for Scott's curbing business. No frameworks
 
 ---
 
-## Before it goes live — 3 quick things
+## Before it goes live — 2 quick things
 
-### 1. Add real photos (biggest impact)
-Curbing sells on pictures. Drop Scott's best job photos into the `images/` folder, then:
-
-- **Hero photo:** in `styles.css`, find `.hero__photo` and replace the `background:` line with
-  `background:url('images/hero.jpg') center/cover;`
-- **Gallery (6 photos):** in `index.html`, each gallery tile looks like
-  `<figure class="gallery__item" style="--g:linear-gradient(...)">`.
-  Change the inline style to `style="background:url('images/job1.jpg') center/cover;"`.
-- **Social share image:** add `images/og-image.jpg` (1200×630px) — this is what shows when the link is shared on Facebook/text.
+### 1. Photos — DONE ✅
+Real job photos were pulled from Scott's existing `/our-work` gallery: the hero shot, the social-share image, and 9 gallery photos (decorative curbing, flower beds, tree rings, river rock, mulch beds, palms, island beds, concrete walkways, stamped concrete) all live in `images/`. His real logo is saved as `images/beach-borders-logo.jpg` too. To swap any of them, just replace the file (`hero.jpg`, `job1.jpg`…`job9.jpg`) keeping the same name.
 
 ### 2. Connect the contact form (free, 5 minutes)
 1. Go to **formspree.io**, sign up free, create a form.
@@ -38,7 +31,7 @@ Curbing sells on pictures. Drop Scott's best job photos into the `images/` folde
 3. In `index.html` find `action="https://formspree.io/f/YOUR_FORM_ID"` and paste it in.
 That's it — submissions email straight to Scott. (Until then, the form politely tells people to call.)
 
-### 3. Double-check the details
+### 3. Double-check the details (optional polish)
 - Phone numbers, email (`info@beachborderscurbing.net` is a placeholder — set the real one), and address are in `index.html`. Search for `843` and `Moulton` to find them fast.
 - Add the real **Facebook / Instagram** links in the footer (search for `aria-label="Facebook"`).
 - The reviews are sample text — replace them with 3 real Google reviews (search `TODO` in `index.html`).
