@@ -32,9 +32,9 @@ Real job photos were pulled from Scott's existing `/our-work` gallery: the hero 
 That's it — submissions email straight to Scott. (Until then, the form politely tells people to call.)
 
 ### 3. Double-check the details (optional polish)
-- Phone numbers, email (`info@beachborderscurbing.net` is a placeholder — set the real one), and address are in `index.html`. Search for `843` and `Moulton` to find them fast.
+- Phone numbers `(843) 283-4770` / `(843) 927-8905`, email `beachborders1@gmail.com`, and the Longs, SC address are all pulled from Scott's real info. Search `843` or `Moulton` in `index.html` to find them.
 - Add the real **Facebook / Instagram** links in the footer (search for `aria-label="Facebook"`).
-- The reviews are sample text — replace them with 3 real Google reviews (search `TODO` in `index.html`).
+- The "reviews" section currently shows real, verifiable proof points (5.0 rating, 1,732 customers, licensed & insured) — **not** fake testimonials. When you have 2–3 actual Google reviews, paste them as `<blockquote class="review">` cards where the HTML comment marks the spot.
 
 ---
 
